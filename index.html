@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tripadvisor</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+  <link rel="stylesheet" href="style.css"/>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript"
+          src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+</head>
+<body>
+<!-- replica reference: https://www.tripadvisor.com/ -->
+<!-- top section, skip advertisement-->
+<div class="ui container">
+  <div class="ui top fixed topmenu menu">
+    <img class="triplogimg item" src="Tripadvisor_lockup_horizontal_secondary_registered.jpg" alt="Tripadvisor logo">
+    <div class="right borderless item">
+      <!-- don't have "plus circle outline icon" -->
+      <button class="ui topmenu button"><i class="plus square outline icon"></i>Post</button>
+      <button class="ui topmenu button"><i class="bell outline icon"></i>Alerts</button>
+      <button class="ui topmenu button"><i class="heart outline icon"></i>Trips</button>
+      <button class="ui topmenu signin button">Sign in</button>
+    </div>
+  </div>
+</div>
+
+<div class="ui aftertop center container">
+  <!-- unable to find all the icon -->
+  <button class="ui large black basic button">Hotels<i class="right bed icon"></i></button>
+  <button class="ui large black basic button">Vacation Rentals <i class="right  home icon"></i></button>
+  <button class="ui large black basic button">Things to Do<i class="right calendar alternate outline icon"></i></button>
+  <button class="ui large black basic button">Restaurants<i class="right coffee icon"></i></button>
+  <button class="ui large black basic button">Write a Review<i class="right edit outline icon"></i></button>
+  <button class="ui large black basic button">Travel Forums<i class="right comment outline icon"></i></button>
+  <div class="ui dropdown large black basic button">
+    <div class="text">More</div>
+    <i class="right ellipsis horizontal icon"></i>
+    <div class="menu">
+      <div class="item">Add a Place</div>
+      <div class="item">Airlines</div>
+      <div class="item">Cruises</div>
+    </div>
+  </div>
+</div>
+
+<div class="ui centerque container">
+  <!-- don't know how to get the background picture, replace with something else -->
+  <!-- image reference: https://thetravellingsquid.com/2018/08/21/japanese-anime-mushishi-after-your-trip-to-japan/ -->
+  <img class="ui fluid image" src="mushishi.jpg"/>
+  <div class="imgtestcenterleft">
+    <h1 style="font-size: 42px">Find the good out there.</h1>
+    <div class="ui left icon input">
+      <i class="search icon"></i>
+      <input style="width: 733px;" type="text" placeholder="Where to?">
+    </div>
+  </div>
+
+</div>
+
+<div class="ui two column botpart grid">
+  <div style="background-color: #faf1ed" class="column">
+    <div class="textinleftcol">
+      <h1 style="font-size: 42px">Don't go it alone.</h1>
+      <h1 style="font-size: 42px">Hire an expert to craft your trip.</h1>
+      <button class="ui topmenu signin button">Learn More</button>
+    </div>
+  </div>
+  <div class="column">
+    <img class="ui fluid image" src="TripadvisorReadReviews.png"/>
+  </div>
+</div>
+
+<br>
+
+<div class="ui five column botpart grid">
+  <div class="column">
+    <div class="ui list">
+      <div style="font-size:18px;" class="item">About Tripadvisor</div>
+      <a class="item">About us</a>
+      <a class="item">Press</a>
+      <a class="item">Resources and Policies</a>
+      <a class="item">Careers</a>
+      <a class="item">Investor Relations</a>
+    </div>
+  </div>
+  <div class="column">
+    <div class="ui list">
+      <a style="font-size:18px;" class="item">Explore</a>
+      <a class="item">Help Center</a>
+    </div>
+  </div>
+  <div class="column">
+    <div class="ui list">
+      <a style="font-size:18px;" class="item">Do Business With Us</a>
+      <a class="item">Owners</a>
+      <a class="item">Business Advantage</a>
+      <a class="item">Sponsored Placements</a>
+      <a class="item">Advertise with us</a>
+      <a class="item">Become an Affiliate</a>
+    </div>
+  </div>
+  <div class="column">
+    <div class="ui list">
+      <a style="font-size:18px;" class="item">About Tripadvisor</a>
+      <a class="item">iPhone</a>
+      <a class="item">Android</a>
+    </div>
+  </div>
+</div>
+
+<div class="ui lastone container">
+  <img style="background-color: #faf1ed;" class="ui floated left image" src="Tripadvisor_logoset_solid_green.png"
+  <p>© 2021 TripAdvisor LLC All rights reserved.</p>
+  <p>This is the version of our website addressed to speakers of English in the United States. If you are a resident of another country or region, please select the appropriate version of Tripadvisor for your country or region in the drop-down menu.</p>
+  <div style="background-color: #faf1ed;" class="ui borderless botpart menu">
+    <div class="ui container">
+      <a class="right item"><i class="facebook f icon"></i></a>
+      <a class="item"><i class="twitter icon icon"></i></a>
+      <a class="item"><i class="pinterest icon icon"></i></a>
+      <a class="item"><i class="instagram icon icon"></i></a>
+  </div>
+
+
+<!-- script for dropdown -->
+<script>
+  $('.ui.dropdown').dropdown();
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+body {
+  margin: 10px;
+}
+
+.ui.top.fixed.topmenu.menu {
+  border: none;
+  box-shadow: none;
+  width: 1136px;
+  margin-left: 183px;
+}
+
+.triplogimg.item {
+  width: 188px;
+}
+
+.ui.topmenu.button {
+  background-color: white;
+}
+
+.ui.topmenu.signin.button {
+  background-color: black;
+  color: white;
+}
+
+.ui.aftertop.container {
+  padding-top: 60px;
+}
+
+.ui.centerque.container {
+  padding-top: 30px;
+}
+
+.imgtestcenterleft {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ui.two.column.botpart.grid {
+  margin-left: 183px;
+  padding-top: 50px;
+  width: 1136px;
+}
+
+.textinleftcol {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.endhere {
+  padding: 50px;
+  width: 1136px;
+}
+
+.ui.five.column.botpart.grid {
+  background-color: #faf1ed;
+  margin-top: 50px;
+  padding-top: 30px;
+  padding-left: 183px;
+}
+
+.ui.lastone.container {
+  background-color: #faf1ed;
+  padding-top: 30px;
+  padding-left: 183px;
+  width: 1572px;
+}
+
+.ui.borderless.botpart.menu {
+  border: none;
+  box-shadow: none;
+}
