@@ -35,6 +35,7 @@ body {
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
+  padding-top: 35px;
 }
 
 .ui.two.column.botpart.grid {
@@ -71,4 +72,8 @@ body {
 .ui.borderless.botpart.menu {
   border: none;
   box-shadow: none;
+}
+
+.ui.five.column.botpart.grid .column .ui.list a {
+  color: black;
 }
