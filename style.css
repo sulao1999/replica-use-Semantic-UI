@@ -1,12 +1,11 @@
 body {
-  margin: 10px;
+  margin-left: 90px;
+  margin-right: 90px;
 }
 
 .ui.top.fixed.topmenu.menu {
   border: none;
   box-shadow: none;
-  width: 1136px;
-  margin-left: 183px;
 }
 
 .triplogimg.item {
@@ -26,6 +25,10 @@ body {
   padding-top: 60px;
 }
 
+.ui.aftertop.container .ui.large.black.basic.button {
+  margin-top: 10px;
+}
+
 .ui.centerque.container {
   padding-top: 30px;
 }
@@ -38,16 +41,15 @@ body {
   padding-top: 35px;
 }
 
-.ui.two.column.botpart.grid {
-  margin-left: 183px;
+.ui.two.column.botpart.grid.container {
   padding-top: 50px;
-  width: 1136px;
 }
 
 .textinleftcol {
   position: absolute;
-  top: 8px;
-  left: 16px;
+  top: 10%;
+  left: 10%;
+  font-size: 200%
 }
 
 .endhere {
@@ -55,18 +57,15 @@ body {
   width: 1136px;
 }
 
-.ui.five.column.botpart.grid {
+.ui.five.column.botpart.grid.container {
   background-color: #faf1ed;
-  margin-top: 50px;
-  padding-top: 30px;
-  padding-left: 183px;
+  margin-top: 30px;
 }
 
 .ui.lastone.container {
   background-color: #faf1ed;
   padding-top: 30px;
-  padding-left: 183px;
-  width: 1572px;
+  width: calc(1127px + 2rem);
 }
 
 .ui.borderless.botpart.menu {
